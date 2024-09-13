@@ -14,6 +14,7 @@ For UNET and YOLO models please refer to these links : https://www.youtube.com/w
 
 <h2>Prototype using React: </h2>
 The prototype frontend is developed using react by using 5 different segmentation models :
+
 <ul>
   <li>U-NET</li>
   <img src="https://github.com/SnehalB06/CSI6900_Scene_Parsing/blob/master/Images/unet.png"></img>
@@ -26,6 +27,8 @@ The prototype frontend is developed using react by using 5 different segmentatio
    <li>YOLO</li>
    <img src="https://github.com/SnehalB06/CSI6900_Scene_Parsing/blob/master/Images/YOLO.png"></img>
 </ul>
+
+Backend of the model is deployed with Flask Backend. React-App-Scene Folder has teh server code and API routes configured. The server first loads all the necessary models and weights before uploading the images and then processes it.
 
 
 
